@@ -3,19 +3,19 @@ import java.util.Calendar;
 
 public class User {
 	
-	private String Name;
-	private dateOfBirth dateOfBirth;
-	private String Email;
-	private int TellNum;
+	private String name;
+	private DateOfBirth dateOfBirth1;
+	private String email;
+	private int tellNum;
 	
 	public String getName() {
-		return Name;
+		return name;
 		}
 	public void setName(String newName) {
 		this.Name = newName;}
 
 	public dateOfBirth getDateOfBirth() {
-		return dateOfBirth;
+		return dateOfBirth1;
 		}
 	public void  setDateOfBirth(dateOfBirth newDateOfBirth) {
 		this.dateOfBirth = newDateOfBirth;
