@@ -12,27 +12,27 @@ public class User {
 		return name;
 		}
 	public void setName(String newName) {
-		this.Name = newName;}
+		this.name = newName;}
 
-	public dateOfBirth getDateOfBirth() {
+	public DateOfBirth getdateOfBirth1() {
 		return dateOfBirth1;
 		}
-	public void  setDateOfBirth(dateOfBirth newDateOfBirth) {
-		this.dateOfBirth = newDateOfBirth;
+	public void  setDateOfBirth(DateOfBirth newDateOfBirth) {
+		this.dateOfBirth1 = newDateOfBirth;
 		}
 
 	public String getEmail() {
-		return Email;
+		return email;
 		}
 	public void  setEmail(String newEmail) {
-		this.Name = newEmail;
+		this.email = newEmail;
 		}
 
 	public int getTellNum() {
-		return TellNum;
+		return tellNum;
 		}
 	public void  setTellNum(int newTellNum) {
-		this.TellNum = newTellNum;
+		this.tellNum = newTellNum;
 		}
 
 }
