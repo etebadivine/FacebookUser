@@ -1,6 +1,6 @@
 import java.util.Calendar;
 
-public class dateOfBirth {
+public class DateOfBirth {
 	
 		private int dayBorn;
 		private  int monthBorn;
