@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class facebookDetails {
+public class FacebookDetails {
 
 	public static void main(String[] args) {
 		String name;
