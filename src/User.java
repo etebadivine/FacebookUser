@@ -11,12 +11,15 @@ public class User {
 	public String getName() {
 		return name;
 		}
+	
 	public void setName(String newName) {
-		this.name = newName;}
+		this.name = newName;
+		}
 
 	public DateOfBirth getdateOfBirth1() {
 		return dateOfBirth1;
 		}
+	
 	public void  setDateOfBirth(DateOfBirth newDateOfBirth) {
 		this.dateOfBirth1 = newDateOfBirth;
 		}
@@ -24,6 +27,7 @@ public class User {
 	public String getEmail() {
 		return email;
 		}
+	
 	public void  setEmail(String newEmail) {
 		this.email = newEmail;
 		}
@@ -31,10 +35,10 @@ public class User {
 	public int getTellNum() {
 		return tellNum;
 		}
+	
 	public void  setTellNum(int newTellNum) {
 		this.tellNum = newTellNum;
 		}
-
 }
 	
 		 
