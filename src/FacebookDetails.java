@@ -5,10 +5,10 @@ public class FacebookDetails {
 
 	public static void main(String[] args) {
 		String name;
-	    int year;
-	    int day;
-	    int month;
-	    String email;
+	    	int year;
+	    	int day;
+	    	int month;
+	    	String email;
 		int tellNum;
 		
 		User facebook = new User();
@@ -22,46 +22,34 @@ public class FacebookDetails {
 		boolean checkMonth;
 		boolean checkYear;
 		
-		
 		do {
 		System.out.println("Date of Birth (yyyy-mm-dd)");
 		
-        String dob = s.next();
-        String[] arr = dob.split("-");
+        	String dob = s.next();
+        	String[] arr = dob.split("-");
         
-        
-		 checkDay   = birthDate.setDayBorn(Integer.parseInt(arr[2]));
-		 checkMonth = birthDate.setMonthBorn(Integer.parseInt(arr[1]));
-		 checkYear  = birthDate.setYearBorn(Integer.parseInt(arr[0]));
+		checkDay   = birthDate.setDayBorn(Integer.parseInt(arr[2]));
+		checkMonth = birthDate.setMonthBorn(Integer.parseInt(arr[1]));
+		checkYear  = birthDate.setYearBorn(Integer.parseInt(arr[0]));
 		 }
 		  while
-			  (checkDay == false ||checkMonth == false||checkYear == false); {
-		 // System.exit(1);
-			
+			(checkDay == false ||checkMonth == false||checkYear == false){
 		}
-//        System.out.println("Day of Birth");
-//        Day = get.nextInt();
-//        
-//        System.out.println("Year of Birth");
-//        Year = get.nextInt();
-//        
         
-        System.out.println("email Address");
+       		System.out.println("email Address");
 		email = s.next();
 		
 		System.out.println("Telephone Number");
 		tellNum = s.nextInt();
-	   
+		
 		facebook.setName(name);
 		facebook.setEmail(email);
 		facebook.setTellNum(tellNum);
 		
-		
 		int age = birthDate.getAge();
 		System.out.println("Age is " + age);
 		}
-		
-	}
+}
 
 	
 
