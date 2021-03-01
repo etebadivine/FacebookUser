@@ -5,8 +5,7 @@ public class DateOfBirth {
 		private int dayBorn;
 		private  int monthBorn;
 		private int yearBorn;
-		
-		
+			
 		public int getDayBorn() {
 			return dayBorn;
 		}
@@ -14,11 +13,11 @@ public class DateOfBirth {
 			dayBorn = day;
 			if(dayBorn > 31) 
 			{
-				System.out.println("Day must be less than 31");
-				return false;
-				} else {
-					return true;
-				}
+			System.out.println("Day must be less than 31");
+			return false;
+			} else {
+			return true;
+			}
 		}
 		public int getMonthBorn() {
 			return monthBorn;
@@ -26,11 +25,11 @@ public class DateOfBirth {
 		public boolean setMonthBorn(int month) {
 			monthBorn = month;
 			if(monthBorn > 12) {
-				System.out.println("month must be less than 12");
-				return false;}
+			System.out.println("month must be less than 12");
+			return false;}
 			else {
-				return true;
-					}
+			return true;
+			}
 		}
 		public int getYearBorn() {
 			return yearBorn;
@@ -38,23 +37,15 @@ public class DateOfBirth {
 		public boolean setYearBorn(int year) {
 			yearBorn = year;
 		 if(yearBorn < 1970) {
-				System.out.println("Year must not be less than 1970");
-				return false;}
+			System.out.println("Year must not be less than 1970");
+			return false;}
 		    else {
 		    	return true;
-		    }
-	
-			
-			
-			
+		      }		
 		}
-	    public int getAge() {
+	      public int getAge() {
 			Calendar cal = Calendar.getInstance();
 			int year = cal.get(Calendar.YEAR);
-			return year-yearBorn;
-				
-			}
-			
-			  
-
+			return year-yearBorn;		
+	    	}		  
 }
